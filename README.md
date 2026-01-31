@@ -4,6 +4,7 @@ A simple backend project built with Python and SQLite to manage job listings.
 This project demonstrates core SQL and backend development concepts.
 
 ## Features
+
 - Create job records
 - View all jobs
 - Update job location
@@ -12,17 +13,21 @@ This project demonstrates core SQL and backend development concepts.
 - Clean modular code structure
 
 ## Tech Stack
+
 - Python
 - SQLite
 - SQL
 
 ## Project Structure
+
 - `db.py` – Database connection
 - `models.py` – Table creation
 - `crud.py` – CRUD operations
 - `jobtrack.db` – SQLite database
 
 ## How to Run
+
+1. Clone the repository
 ```bash
-python models.py
-python crud.py
+git clone https://github.com/joswa-dev/sql-inventory-api.git
+cd sql-inventory-api
